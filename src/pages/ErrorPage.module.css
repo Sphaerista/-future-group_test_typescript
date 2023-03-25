@@ -1,0 +1,46 @@
+.errorSection {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.backBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.backBtn button {
+  padding: 0.8rem;
+  border: none;
+  height: 50px;
+  color: #ffffff;
+  background: #838f88;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.backBtn button:hover {
+  background: #4c534f;
+}
+
+@media (min-width: 768px) {
+  .bookItem {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bookItem {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bookItem {
+    width: 70%;
+    justify-content: space-between;
+  }
+}
